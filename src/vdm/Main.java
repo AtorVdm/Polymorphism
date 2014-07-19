@@ -8,6 +8,7 @@ public class Main {
 	public static void print(String s) {
 		System.out.println(s);
 	}
+	
 	public static void main(String[] args) {
 		Main main = new Main();
 		
@@ -26,6 +27,7 @@ public class Main {
 		print(main.write(new Cat()));
 		print(main.write(new Dog()));
 	}
+	
 	/*
 	 * Parametric polymorphism
 	 */
